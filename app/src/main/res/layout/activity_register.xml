@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".Register">
+
+    <!-- Logo Text -->
+
+    <!-- Logo Image -->
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="113dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="FINDORA"
+        android:textColor="#2C3E50"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="103dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toStartOf="@id/logoText"
+
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/flogo" />
+
+    <!-- Email input field -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoText"
+        android:layout_marginTop="47dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="56dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="22dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="56dp"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/forgotPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="8dp"
+        android:text="Forgot Password?"
+        android:textColor="#2980B9" />
+
+    <!-- Register button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgotPasswordText"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#3498DB"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/loginPg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginTop="69dp"
+        android:backgroundTint="#000000"
+        android:text="Click for Login Page"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D2D2"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5D2D2"
+        android:paddingBottom="56dp">
+
+        <!-- your settings icon -->
+
+        <ImageButton
+            android:id="@+id/settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="7dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Settings"
+            android:padding="10dp"
+            android:src="@drawable/ic_settings"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Profile Image and Notifications -->
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/circle_border" />
+
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileImageView"
+            android:text="Hi , Welcome to Findora!"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Event Filters (Spinners) -->
+        <LinearLayout
+            android:id="@+id/spinnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcomeTextView"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+            <!--            <Spinner-->
+            <!--                android:id="@+id/finderSpinner"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:backgroundTint="#AFA4A4"-->
+            <!--                android:backgroundTintMode="add"-->
+            <!--                android:entries="@array/finderSpinner"-->
+            <!--                android:minHeight="38dp" />-->
+
+            <Spinner
+                android:id="@+id/eventSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#756565"
+                android:backgroundTintMode="add"
+                android:entries="@array/eventfilter"
+                android:minHeight="48dp" />
+
+            <!--            <Spinner-->
+            <!--                android:id="@+id/daytimeSpinner"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="16dp"-->
+            <!--                android:backgroundTint="#756565"-->
+            <!--                android:backgroundTintMode="add"-->
+            <!--                android:entries="@array/daytimeSpinner"-->
+            <!--                android:minHeight="48dp" />-->
+        </LinearLayout>
+
+        <!-- RecyclerView for displaying events -->
+
+        <!-- Buttons below the RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/eventRecyclerView"
+            android:layout_width="363dp"
+            android:layout_height="432dp"
+            android:layout_below="@id/spinnerLayout"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#F6F2F2"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_event" />
+
+        <LinearLayout
+            android:id="@+id/bottomButtonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventRecyclerView"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Button 1 -->
+            <Button
+                android:id="@+id/buttonPrevious"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#B7BAC1" />
+
+            <!-- Button 2 -->
+            <Button
+                android:id="@+id/btnHostnext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#396DEF"
+                android:text="Host Event"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/mapsbtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/bottomButtonsLayout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="154dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/Viewmap"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mapsicon" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

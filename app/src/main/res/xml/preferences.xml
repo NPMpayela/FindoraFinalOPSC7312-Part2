@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Profile -->
+    <ListPreference
+        android:key="profile_privacy"
+        android:title="Profile Privacy"
+        android:summary="Set your profile visibility to public or private"
+        android:entries="@array/privacy_options"
+        android:entryValues="@array/privacy_values"
+        android:defaultValue="public" />
+
+    <!-- Language -->
+    <ListPreference
+        android:key="language"
+        android:title="Language"
+        android:summary="Change the language of the app"
+        android:entries="@array/languages"
+        android:entryValues="@array/languages_values"
+        android:defaultValue="en"
+        android:icon="@drawable/ic_language" />
+
+    <!-- Rewards -->
+    <Preference
+        android:key="rewards"
+        android:title="Rewards"
+        android:summary="Check your rewards"
+        android:icon="@drawable/ic_rewards" />
+
+    <!-- Theme -->
+    <ListPreference
+        android:key="theme"
+        android:title="Theme"
+        android:summary="Choose a theme"
+        android:entries="@array/themes"
+        android:entryValues="@array/themes_values"
+        android:defaultValue="light"
+        android:icon="@drawable/ic_theme" />
+
+    <!-- About Us -->
+    <Preference
+        android:key="about_us"
+        android:title="About Us"
+        android:summary="Learn more about us"
+        android:icon="@drawable/ic_about_us" />
+
+    <!-- Help -->
+    <Preference
+        android:key="help"
+        android:title="Help"
+        android:summary="Get help"
+        android:icon="@drawable/ic_help" />
+
+    <!-- Privacy Policy -->
+    <Preference
+        android:key="privacy_policy"
+        android:title="Privacy Policy"
+        android:summary="View privacy policy"
+        android:icon="@drawable/ic_privacy" />
+
+    <!-- Terms & Conditions -->
+    <Preference
+        android:key="terms_conditions"
+        android:title="Terms and Conditions"
+        android:summary="View terms and conditions"
+        android:icon="@drawable/ic_terms" />
+
+    <!-- Push Notifications -->
+    <SwitchPreferenceCompat
+        android:key="push_notifications"
+        android:title="Push Notifications"
+        android:summary="Receive push notifications from our application on a semi-regular basis."
+        android:defaultValue="true"
+        android:icon="@drawable/ic_notifications" />
+
+    <!-- Location Services -->
+    <SwitchPreferenceCompat
+        android:key="location_services"
+        android:title="Location Services"
+        android:summary="Allow us to track your location."
+        android:defaultValue="false"
+        android:icon="@drawable/ic_location" />
+
+    <!-- App Version -->
+    <Preference
+        android:key="app_version"
+        android:title="App Version"
+        android:summary="v0.0.1"
+        android:enabled="false"
+        android:icon="@drawable/ic_version" />
+
+    <!-- Log Out -->
+    <Preference
+        android:key="logout"
+        android:title="Log Out"
+        android:summary="Log out from the app"
+        android:icon="@drawable/ic_logout" />
+</PreferenceScreen>

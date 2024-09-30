@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "629378336159",
+    "project_id": "opsc-poe-p2",
+    "storage_bucket": "opsc-poe-p2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629378336159:android:b8914b65f540b8763e69aa",
+        "android_client_info": {
+          "package_name": "com.example.findoraapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629378336159-t9914kbidn5fmqkfr278ps97lqvb9hif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findoraapi",
+            "certificate_hash": "c70c105fac557afef0aad8e36decaf7e143e0f87"
+          }
+        },
+        {
+          "client_id": "629378336159-o9284756b17fnokj0s2hr4vff4nllv9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNteGBucjj50aJRnDUG4-QrngCVJwZ40w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629378336159-o9284756b17fnokj0s2hr4vff4nllv9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629378336159:android:b06f94d79bdfcbed3e69aa",
+        "android_client_info": {
+          "package_name": "com.example.opsc_poe_tmp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629378336159-i2cl8lgc22mkm20s76mchg4kqqr0kr06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opsc_poe_tmp",
+            "certificate_hash": "fbbf50937ff625dbd3f74eb6badc6c271aa4ea88"
+          }
+        },
+        {
+          "client_id": "629378336159-ing1mk3q33tm12dv3v4bd34h89r1hiqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opsc_poe_tmp",
+            "certificate_hash": "c70c105fac557afef0aad8e36decaf7e143e0f87"
+          }
+        },
+        {
+          "client_id": "629378336159-o9284756b17fnokj0s2hr4vff4nllv9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNteGBucjj50aJRnDUG4-QrngCVJwZ40w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629378336159-o9284756b17fnokj0s2hr4vff4nllv9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
