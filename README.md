@@ -44,6 +44,13 @@ Build Tools
 	> Kotlin: Primary programming language for the Android app.
 	> Firebase: Provides real-time notifications, authentication, and analytics.
 
+ API tools:
+Deployed base url link for Railway : https://workingnodefandoraapi-production.up.railway.app  --curently used for the app
+Deployed base url link for Render : https://findoraandriodapp-xyft.onrender.com   --works but not used due to speed
+
+If none of the deployed URLs work: use http://10.0.2.2:4659 
+with api GitHub link : https://github.com/NPMpayela/WorkingNodeFandoraApi 
+
 How to Use Findora
 
 1. Signing Up/Logging In
