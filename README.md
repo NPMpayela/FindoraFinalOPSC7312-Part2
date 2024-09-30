@@ -2,6 +2,9 @@
 
 Findora is a local event-finding Android application that helps users discover, host, and manage events in their area. With features like proximity-based notifications, event ticket management, and customizable settings, Findora aims to enhance the experience of event exploration and creation. 
 
+YouTube Phone Demonstration Video: https://youtu.be/fjyKUjXKrDg
+YouTube manual Registration and Login Demo Video: https://youtu.be/219TY97tkzQ 
+YouTube Android Studio Emulator Video: https://youtu.be/hvqgQ340Js0
 
 Features
 
