@@ -5,19 +5,20 @@ Findora is a local event-finding Android application that helps users discover, 
 
 Features
 
-	1.Event Searching: Users can find local events based on proximity, keywords, and 	categories.
-	2.Event Hosting: Event organizers can post events and manage ticketing.
-	3.Real-Time Notifications: Receive updates and reminders about upcoming events.
-	4.Customizable Settings: Themes, language preferences, privacy settings, and push 	notifications.
-	5.Single Sign-On (SSO): Supports SSO and biometric authentication for easy and secure 	login.
-	6.Local Deals & Promotions: Discover promotions and special deals associated with nearby 	events. 
-
+	1.Event Searching: Users can find local events based on proximity, keywords, and categories.
+	2.Event Hosting: Event organizers can post events and and manage ticketing.
+	3.Google maps integration to find users current location and events location and Google places integration for location auto-complete.
+	4.Customizable Settings: Themes, language preferences, privacy settings, and push notifications.
+	5.Single Sign-On (SSO): Supports SSO and support will suppobiometric authentication for easy and secure login.
+	6.Image browsing integration giving users to give events a more detailed appearence.
+        7.Real-Time Notifications: Receive updates and reminders about upcoming events.
+        8.Local Deals & Promotions: Discover promotions and special deals associated with nearby events.
 
 Project Structure
 
 	- app/: Contains the main Android source code and resources.
 	- gradle/: Gradle wrapper files for project build management.
-	- google-services.json: Firebase configuration for push notifications and 		  	authentication.
+	- google-services.json: Firebase configuration for push notifications and authentication.
 	- secrets.properties: Contains secrets for API keys and other sensitive information.
 
 					
@@ -58,6 +59,11 @@ How to Use Findora
 	> Use the search bar at the top to find specific events by keywords or categories.
 	> Enable location services to find events near your area. You can also set a specific 	location manually.
 	> Use filters to narrow down events by category, date, or proximity.
+ 
+ 3.1. Using Map feature
+      > On the Bottom of the Home page navigate to the google maps icon.
+      > Accept permissions and start using the map.
+      
 4. Exploring Event Details
 
 	> Tap on any event to view more details, including:
@@ -65,11 +71,11 @@ How to Use Findora
 		> Host information
 		> Ticket availability
 		> Description and event activities
-		> You can choose to save the event for later, share it with friends, or RSVP to 		  get a ticket.
+		> You can choose to save the event for later, share it with friends, or RSVP to get a ticket.
 
 5. Hosting an Event
 	> If you're an event organizer, go to the Host Event section.
-	> Fill in the event details, including the event name, date, location, description, 	ticket prices (if applicable), and the maximum number of attendees.
+	> Fill in the event details, including the event name, date, location, description, ticket prices (if applicable), and the maximum number of attendees.
 	> You can upload images and promotional materials to attract attendees.
 	> Once published, your event will be visible to users in the area, and you can monitor 	RSVPs and ticket sales in real-time. 
 
@@ -77,8 +83,8 @@ How to Use Findora
 	> Go to Settings to customize the app's interface and behavior:
 		> Choose between dark mode and light mode.
 		> Set your preferred language.
-		> Enable or disable push notifications for upcoming events, changes, or 		 	promotions.
-		>Manage your location and notification preferences, such as whether to receive 			alerts for nearby events.
+		> Enable or disable push notifications for upcoming events, changes, or promotions.
+		>Manage your location and notification preferences, such as whether to receive alerts for nearby events.
  
 7. Receiving Notifications
 	> The app will notify you about:
@@ -88,7 +94,7 @@ How to Use Findora
 		> Promotions and deals for local businesses hosting or sponsoring events.
 
 8. Logging Out
-	> To log out, go to the Settings menu and scroll to the bottom to find the Log Out 	button.
+	> To log out, go to the Settings menu and scroll to the bottom to find the Log Out button.
 
 
 License
