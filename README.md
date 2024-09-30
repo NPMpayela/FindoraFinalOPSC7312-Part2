@@ -51,32 +51,35 @@ Build Tools
 	> Firebase: Provides real-time notifications, authentication, and analytics.
 
  API tools:
-2 Difference sites were used to deploy our APIs
-Deployed base url link for Railway : https://workingnodefandoraapi-production.up.railway.app  --curently used for the app
-Deployed base url link for Render : https://findoraandriodapp-xyft.onrender.com   --works but not used due to speed
+ 
+        - 2 Difference sites were used to deploy our APIs : 
+        - Deployed base url link for Railway : https://workingnodefandoraapi-production.up.railway.app  --curently used for the app
+        - Deployed base url link for Render : https://findoraandriodapp-xyft.onrender.com   --works but not used due to speed
 
-If none of the deployed URLs work you can run API locally use: http://10.0.2.2:4659 
-with API GitHub link : https://github.com/NPMpayela/WorkingNodeFandoraApi   -run commands "npm install"  and  "npm run dev"
+        - If none of the deployed URLs work you can run API locally use: http://10.0.2.2:4659 
+        - with API GitHub link : https://github.com/NPMpayela/WorkingNodeFandoraApi   -run commands "npm install"  and  "npm run dev"
 
 How to Use Findora
 
 1. Signing Up/Logging In
-	> When you open the app, you can sign up with an email address, or log in using your Single Sign-On (SSO) credentials (Google, Facebook, etc.).
+	
+        > When you open the app, you can sign up with an email address, or log in using your Single Sign-On (SSO) credentials (Google, Facebook, etc.).
         > While using email and password to register you will see a "Welcome <email>" message , the go back to login page then login with your registered account.
 
- > Create new account OR use Login  Email : " demoemail.com "
+        > Create new account OR use Login  Email : " demoemail.com "
                                      Password : " find123 "
 
-	> Biometric authentication (fingerprint/face recognition) will be enabled (POE) for a faster 	and more secure login experience after the first login.
+       > Biometric authentication (fingerprint/face recognition) will be enabled (POE) for a faster 	and more secure login experience after the first login.
 
 2. Creating Your Profile
-	> After logging in, you can set up your profile by adding personal details like your 	name, a profile picture, and your preferred event categories (e.g., music, tech, 	sports).
-	> You can adjust privacy settings to control what information is visible to other users, 	such as whether your profile appears in event guest lists. 
+	
+        > After logging in, you can set up your profile by adding personal details like your name, a profile picture, and your preferred event categories (e.g., music, tech, sports).
+       > You can adjust privacy settings to control what information is visible to other users, such as whether your profile appears in event guest lists. 
 
 3. Finding Events
-	> On the main screen, you'll see a list of upcoming events based on your current 	location and preferences.
+	> On the main screen, you'll see a list of upcoming events based on your current location and preferences.
 	> Use the search bar at the top to find specific events by keywords or categories.
-	> Enable location services to find events near your area. You can also set a specific 	location manually.
+	> Enable location services to find events near your area. You can also set a specific location manually.
 	> Use filters to narrow down events by category, date, or proximity.
  
  3.1. Using Map feature
