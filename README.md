@@ -48,6 +48,7 @@ Build Tools
 	> Firebase: Provides real-time notifications, authentication, and analytics.
 
  API tools:
+2 Difference sites were used to deploy our APIs
 Deployed base url link for Railway : https://workingnodefandoraapi-production.up.railway.app  --curently used for the app
 Deployed base url link for Render : https://findoraandriodapp-xyft.onrender.com   --works but not used due to speed
 
