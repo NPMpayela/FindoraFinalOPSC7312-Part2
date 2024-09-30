@@ -51,14 +51,19 @@ Build Tools
 Deployed base url link for Railway : https://workingnodefandoraapi-production.up.railway.app  --curently used for the app
 Deployed base url link for Render : https://findoraandriodapp-xyft.onrender.com   --works but not used due to speed
 
-If none of the deployed URLs work: use http://10.0.2.2:4659 
-with api GitHub link : https://github.com/NPMpayela/WorkingNodeFandoraApi 
+If none of the deployed URLs work you can run API locally use: http://10.0.2.2:4659 
+with API GitHub link : https://github.com/NPMpayela/WorkingNodeFandoraApi   -run commands "npm install"  and  "npm run dev"
 
 How to Use Findora
 
 1. Signing Up/Logging In
-	> When you open the app, you can sign up with an email address, or log in using your 	Single Sign-On (SSO) credentials (Google, Facebook, etc.).
-	> Biometric authentication (fingerprint/face recognition) can be enabled for a faster 	and more secure login experience after the first login.
+	> When you open the app, you can sign up with an email address, or log in using your Single Sign-On (SSO) credentials (Google, Facebook, etc.).
+        > While using email and password to register you will see a "Welcome <email>" message , the go back to login page then login with your registered account.
+
+ > Create new account OR use Login  Email : " demoemail.com "
+                                     Password : " find123 "
+
+	> Biometric authentication (fingerprint/face recognition) will be enabled (POE) for a faster 	and more secure login experience after the first login.
 
 2. Creating Your Profile
 	> After logging in, you can set up your profile by adding personal details like your 	name, a profile picture, and your preferred event categories (e.g., music, tech, 	sports).
