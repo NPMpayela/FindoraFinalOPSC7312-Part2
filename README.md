@@ -7,10 +7,13 @@ Features
 
 	1.Event Searching: Users can find local events based on proximity, keywords, and categories.
 	2.Event Hosting: Event organizers can post events and and manage ticketing.
+ USER DEFINED FEATURE # 1 (Google maps integration + location auto-complete feature )
 	3.Google maps integration to find users current location and events location and Google places integration for location auto-complete.
+ USER DEFINED FEATURE # 2 (Dark mode and Light mode)
 	4.Customizable Settings: Themes, language preferences, privacy settings, and push notifications.
 	5.Single Sign-On (SSO): Supports SSO and support will suppobiometric authentication for easy and secure login.
-	6.Image browsing integration giving users to give events a more detailed appearence.
+ USER DEFINED FEATURE # 3 (Image browsing)
+        6.Image browsing integration giving users to upload to events a more detailed appearence.
         7.Real-Time Notifications: Receive updates and reminders about upcoming events.
         8.Local Deals & Promotions: Discover promotions and special deals associated with nearby events.
 
